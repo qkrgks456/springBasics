@@ -24,6 +24,7 @@ public class AppConfig {
     }
 
     private DiscountPolicy GetDiscountPolicy() {
-        return new FixDiscountPolicy();
+        // return new FixDiscountPolicy();
+        return new RateDiscountPolicy();
     }
 }
